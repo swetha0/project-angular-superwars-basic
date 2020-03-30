@@ -61,13 +61,7 @@ To generate the starter code, follow the steps given below
 
 ## PROGRESSION #0:
 
-You need to create an array of 20 Super Heroes and Super-Villains. We are talking about the array of 20 _strings_ containing each Super Heroes and Super-Villains names. Here is one example of how the data is displayed:
-
-```
-[
-    "Spiderman"
-]
-```
+You need to create an array of 20 Super Heroes and Super-Villains. We are talking about the array of 20 _strings_ containing each Super Heroes and Super-Villains name, strength, image and type. 
 
 ### Progression 1: More players, more fun
 
@@ -88,7 +82,7 @@ Dustin and Lucus wants to create players array, such that each player contains n
     ]
     ```
 
-### Progression 2: Courage is grace
+### Progression 2: Match the Supers
 
 Fetch and display the Super Heroes and Super Villans from the array created. Refer expected output for your reference.
 
