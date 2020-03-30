@@ -61,17 +61,28 @@ To generate the starter code, follow the steps given below
 
 ## PROGRESSION #0:
 
-You need to create an array of 20 Super Heroes and Super-Villains. We are talking about the array of 20 _strings_ containing each Super Heroes and Super-Villains name, strength, image and type. 
+Create a component called as supers. Inside the supers.component.ts,Create a class called as Supers as per the template given below
+`export class PlayersComponent implements OnInit{
+
+}`
+,then you need to create an array of 20 Super Heroes and Super-Villains. We are talking about the array of 20 _strings_ containing each Super Heroes and Super-Villains names. Here is one example of how the data is displayed:
+
+```
+Players: string[] = [
+    "Spiderman"
+]
+```
 
 ### Progression 1: More players, more fun
+Dustin and Lucus wants to create players. Use `ngOnit():void`, to initialize the player . There are two methods get
+    - players(player: string[]): void method is used to intialize an array of player objects
+    - getRandomStrength(): number method is used to generate the random strength
 
-Dustin and Lucus wants to create players array, such that each player contains name, strength, image url and type.  
 * Use default `strength` as any number.  
 * `image` can be sequential i.e. "images/super-"+(i+1)+".png"  
 * `type` of player can alternating between hero and villain or your own logic
 * It should _return an array_ of player objects.
-* You can use the images that you used for superwars-basic from the week-1 lab.
-    ```
+  ```
     [
         {
             name:"Super Man",
@@ -82,9 +93,13 @@ Dustin and Lucus wants to create players array, such that each player contains n
     ]
     ```
 
-### Progression 2: Match the Supers
+## Progression 2: Courage is grace
 
-Fetch and display the Super Heroes and Super Villans from the array created. Refer expected output for your reference.
+Add your logic in `getRandomStrength(): number` method, such that it should _return a random strength_ from 1 to 100. The strength is what is gonna decide the winner.
+
+## Progression 3: Match the Supers
+
+Fetch and Display the Super Heroes and Super Villains.
 
 ## Expected Output
 
