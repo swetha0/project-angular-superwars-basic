@@ -88,7 +88,7 @@ In `buildPlayers()`, loop through the created JSON objects and accumulate HTML t
 
 ## Expected Output
 
-![Superwars](doc/superwars-basic1.png)
-![Superwars](doc/superwars-basic2.png)
+![Superwars](https://github.com/FACEPrep-ProGrad/project-12-superwars-basic/raw/master/doc/superwars-basic1.png)
+![Superwars](https://github.com/FACEPrep-ProGrad/project-12-superwars-basic/raw/master/doc/superwars-basic2.png)
 
 Happy Coding ProGrad ❤️
