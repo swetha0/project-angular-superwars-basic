@@ -12,8 +12,6 @@ Lucus always loves protagonists like most of us. But Dustin is quite crazy, he l
 
 Okay, let us explain. They are going to facilitate the ultimate war between Super Heroes and Super Villains. As they are new to these technologies, they need a **ProGrad** to help them build this game.
 
-## Learning Goals
-
 After this lesson, you will be able to:
 
 - Create a static Angular application with Angular CLI.
@@ -42,25 +40,44 @@ In the pull request name, add your Prograd id, name, and last name separated by 
 
 You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
 
-## Starter code
+## Starter Code
+
+To generate the starter code, follow the steps given below
+
+- To create a new application,
+    - Open your ubuntu or cmd terminal and execute the following command
+      - ```ng new app-name```
+      - for example, ng new super-wars
+    - To create a new component, execute the command 
+      - ``` ng generate component component-name```
+      - example, ng generate component contacts
+      
+## How to run
+
+- To run the project go to your ubuntu terminal or VScode editor
+    - open the ubuntu or cmd terminal or inside the vscode editor
+    - run the command following command
+    - ```ng serve --open or ng serve -o```
+
+## PROGRESSION #0:
 
 You need to create an array of 20 Super Heroes and Super-Villains. We are talking about the array of 20 _strings_ containing each Super Heroes and Super-Villains names. Here is one example of how the data is displayed:
 
-```javascript
+```
 [
     "Spiderman"
 ]
 ```
 
-
 ### Progression 1: More players, more fun
 
-Dustin and Lucus wants to create players.In `initPlayers()`, loop through passed constant and  create JSON Objects, such that each player contains name, strength, image url and type.  
+Dustin and Lucus wants to create players array, such that each player contains name, strength, image url and type.  
 * Use default `strength` as any number.  
 * `image` can be sequential i.e. "images/super-"+(i+1)+".png"  
 * `type` of player can alternating between hero and villain or your own logic
 * It should _return an array_ of player objects.
-    ```javascript
+* You can use the images that you used for superwars-basic from the week-1 lab.
+    ```
     [
         {
             name:"Super Man",
@@ -73,18 +90,7 @@ Dustin and Lucus wants to create players.In `initPlayers()`, loop through passed
 
 ### Progression 2: Courage is grace
 
-Add your logic in `getRandomStrength()` method, such that it should _return a random strength_ from 1 to 100. The strength is what is gonna decide the winner.
-
-### Progression 3: No player should fall
-
-In `buildPlayers()`, loop through the created JSON objects and accumulate HTML template as below and _return HTML element_.
- ```JS
-<div class="player">
-    <img src="${players[i].image}">
-    <div class="name">${players[i].name}</div>
-    <div class="strength">${players[i].strength}</div>
-</div>
-```
+Fetch and display the Super Heroes and Super Villans from the array created. Refer expected output for your reference.
 
 ## Expected Output
 
