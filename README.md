@@ -104,6 +104,6 @@ Fetch and Display the Super Heroes and Super Villains.
 ## Expected Output
 
 ![Superwars](https://raw.githubusercontent.com/FACEPrep-ProGrad/project-12-superwars-basic/master/doc/superwars-basic1.png)
-![Superwars](https://raw.githubusercontent.com/FACEPrep-ProGrad/project-12-superwars-basic/master/doc/superwars-basic2.png)
+
 
 Happy Coding ProGrad ❤️
